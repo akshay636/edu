@@ -1,0 +1,275 @@
+/* step button  */
+.step-btn-div{
+    display: inline-flex;
+     align-items: center;
+
+}
+.dashed{
+    border: 0.5px dashed green;
+    width: 70px;
+     height: 0px;
+}
+.step-2{
+    width: 45px; height: 45px; border-radius: 50%; border: 2px solid black
+}
+.dropdown-icon{
+    width: 167px; height: 40px; margin-right: 30px; text-align: left
+}
+.dropdown-toggle{
+    border-color:black;
+  }
+  .dropdown-toggle::after {
+    content: none;
+  }
+  .dropdown-menu{
+    width: 85%;
+    height: 169%;
+  }
+  #outer-circle {
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    position: relative;
+  }
+  #inner-circle {
+    position: absolute;
+    background: black;
+    border-radius: 50%;
+    height: 8px;
+    width: 8px;
+    margin:2px 3px 4px 2px;  
+  }
+  
+  #on1{
+    margin-left: -12px;
+    margin-top:3px;
+   
+  }
+  
+  #outer-circle1 {
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    position: relative;
+  }
+  #inner-circle1 {
+    position: absolute;
+    border-radius: 50%;
+    height: 8px;
+    width: 8px;
+    margin:2px 3px 4px 2px;
+    
+  }
+  .yc{
+    margin-top: -40px; margin-left: 10px
+  }
+  .form-g{
+    position: relative;
+  }
+  .input{
+    height: 40px; padding-right: 50px 
+  }
+  .div-btn{
+    position: absolute; top: 10%; right: 8px;
+  }
+  .input_button{
+    height: 33px; background-color: #34C36D; color: white
+  }
+  /* #wrapper {
+    
+  
+    height: 150px;
+    background-color: #FFF1F3;
+    overflow-x: auto;
+}
+#parent {
+ width: 100%;
+  height: 400px;
+  
+}
+.child {
+    float: left;
+    width: 275px;
+    height: 100%;
+   border-right: 2px solid #C4C4C4;
+}
+.container-1 {
+  height: 95px;
+  border: 1px solid black;
+  position: relative;
+  margin-top:'10px'
+    
+}
+
+.line{
+  margin-top: -7px;
+  height: 5px;
+position: relative;
+outline: none;
+align-items: center;
+margin-left: 16px;
+margin-right: 16px;
+background-color: #DC9C9C;
+
+}
+.dot1{
+  position: absolute;
+display: inline-block;
+top: -4px;
+}
+
+
+.a{
+  display: flex;
+  box-shadow: none;
+}
+.b{
+  border-radius: 8px;
+}
+.c{
+  margin-bottom: 4px;
+}
+.box{
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 1px solid #C4C4C4;
+  margin: 0 0 0 48px;
+  will-change: opacity;
+  padding: 0;
+  text-decoration: none;
+}
+.line{
+  width: auto;
+}
+
+.form{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 14px;
+  font-family: arial,sans-serif;
+  color: #1a0dab;
+  line-height: 22px;
+}
+.txt{
+  white-space: normal;
+    width: 100%;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    line-height: 16px;
+    color: #3c4043;
+    max-height: 48px;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    word-break: break-word;
+}
+.t{
+  margin-top: 0px;
+text-align: left;
+}*/
+.container{
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: stretch;}
+.dot-k {
+  height: 10px;
+  width: 10px;
+ 
+  border-radius: 50%;
+  position: relative;
+}
+
+.container-k {
+  display: flex;
+  
+  align-items: left;
+}
+
+.cyt {
+  width: 100%;
+} 
+.outer{
+  border-radius: 50%;
+position: absolute;
+will-change: opacity,transform;
+width: 14px;
+height: 14px;
+transform: scale(0.222);
+margin-top:9.5px;
+left: -4.175px;
+background-color: #CF203F;
+transform:scale(1);
+}
+.inner{
+  position: absolute;
+  border-radius: 50%;
+  will-change: opacity,transform;
+  display: inline-block;
+  transform: scale(.67);
+  margin-top:10px;
+  margin-left:-4px;
+  width: 6px;
+  height: 6px;
+  z-index: 1;
+  background-color: white;
+  top: 4px;
+  }
+  .react-responsive-modal-closeButton {
+    position: absolute;
+    top: 8px !important;
+    right: 14px;
+    border-radius: 50% !important;
+    background-color: red !important;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    background-color: transparent;
+    display: flex;
+}
+
+element.style {
+    animation: 300ms ease 0s 1 normal none running react-responsive-modal-modal-in;
+}
+.react-responsive-modal-modal {
+    max-width: 800px;
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    background: none !important;
+    box-shadow: none !important;
+    margin: 1.2rem;
+    padding: 1.2rem;
+    position: relative;
+    overflow-y: auto;
+}
+iframe{
+  width: 500px;
+  height: 400px;
+}
+
+@media only screen and (max-width: 600px){
+  iframe{
+    width: 350px;
+  height: 250px;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  iframe{
+    width: 250px;
+   height: 150px;
+  }
+}
+@media only screen and (max-width: 200px){
+  iframe{
+    width: 150px;
+   height: 150px;
+  }
+}
